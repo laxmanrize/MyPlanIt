@@ -2,8 +2,8 @@
 //  MyPlanItTests.m
 //  MyPlanItTests
 //
-//  Created by Arun Kumar on 20/01/14.
-//  Copyright (c) 2014 SSTIG. All rights reserved.
+//  Created by Justin wanajrat on 20/01/14.
+//  Copyright (c) 2014 MyPlanIt. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

@@ -19,6 +19,32 @@
 		6E1A9E90188D2BE10032A7F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1A9E78188D2BE10032A7F7 /* UIKit.framework */; };
 		6E1A9E98188D2BE10032A7F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E1A9E96188D2BE10032A7F7 /* InfoPlist.strings */; };
 		6E1A9E9A188D2BE10032A7F7 /* MyPlanItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1A9E99188D2BE10032A7F7 /* MyPlanItTests.m */; };
+		6E1A9EA6188D2C0E0032A7F7 /* MyPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E1A9EA4188D2C0E0032A7F7 /* MyPlanViewController.m */; };
+		6E1A9EA7188D2C0E0032A7F7 /* MyPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E1A9EA5188D2C0E0032A7F7 /* MyPlanViewController.xib */; };
+		6E5A0B4E18981510000BA96A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A0B4918981510000BA96A /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6E5A0B4F18981510000BA96A /* CustomHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A0B4B18981510000BA96A /* CustomHttpClient.m */; };
+		6E5A0B53189815DE000BA96A /* HttpRequestHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5A0B52189815DE000BA96A /* HttpRequestHandling.m */; };
+		6E6A1318188E76E9000DEE89 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6A1317188E76E9000DEE89 /* SpriteKit.framework */; };
+		6E6A131D188E77A5000DEE89 /* Molecule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A131C188E77A5000DEE89 /* Molecule.m */; };
+		6E6A1320188E7820000DEE89 /* Link.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A131F188E7820000DEE89 /* Link.m */; };
+		6E6A1323188E7A77000DEE89 /* Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1322188E7A77000DEE89 /* Atom.m */; };
+		6E6A1326188E7C96000DEE89 /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1325188E7C96000DEE89 /* Address.m */; };
+		6E6A1329188E7D8B000DEE89 /* AtomTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1328188E7D8B000DEE89 /* AtomTypes.m */; };
+		6E6A132C188E7DF3000DEE89 /* Attachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A132B188E7DF3000DEE89 /* Attachment.m */; };
+		6E6A132F188E7E57000DEE89 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A132E188E7E57000DEE89 /* Contact.m */; };
+		6E6A1332188E7EBF000DEE89 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1331188E7EBF000DEE89 /* Location.m */; };
+		6E6A1335188E7F45000DEE89 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1334188E7F45000DEE89 /* Note.m */; };
+		6E6A1338188E7FA9000DEE89 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1337188E7FA9000DEE89 /* Person.m */; };
+		6E6A133B188E8120000DEE89 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A133A188E8120000DEE89 /* Service.m */; };
+		6E6A133E188E8195000DEE89 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A133D188E8195000DEE89 /* Settings.m */; };
+		6E6A1355188E877D000DEE89 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A1354188E877D000DEE89 /* MFSideMenuContainerViewController.m */; };
+		6E71143C18994E150067B672 /* input_field_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E71143B18994E150067B672 /* input_field_bg@2x.jpg */; };
+		6E71143E18994F910067B672 /* remember@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E71143D18994F910067B672 /* remember@2x.jpg */; };
+		6E71144018994FAA0067B672 /* remember_checked@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E71143F18994FAA0067B672 /* remember_checked@2x.jpg */; };
+		6E711442189951B80067B672 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E711441189951B80067B672 /* MapKit.framework */; };
+		6E71144C1899572F0067B672 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E71144B1899572F0067B672 /* DataModel.m */; };
+		6E71144E189957F00067B672 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E71144D189957F00067B672 /* AdSupport.framework */; };
+		6EF7AEC018903C1700D6ABB4 /* MyPlanIt.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6EF7AEBF18903C1700D6ABB4 /* MyPlanIt.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +74,51 @@
 		6E1A9E95188D2BE10032A7F7 /* MyPlanItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPlanItTests-Info.plist"; sourceTree = "<group>"; };
 		6E1A9E97188D2BE10032A7F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E1A9E99188D2BE10032A7F7 /* MyPlanItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPlanItTests.m; sourceTree = "<group>"; };
+		6E1A9EA3188D2C0E0032A7F7 /* MyPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlanViewController.h; sourceTree = "<group>"; };
+		6E1A9EA4188D2C0E0032A7F7 /* MyPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlanViewController.m; sourceTree = "<group>"; };
+		6E1A9EA5188D2C0E0032A7F7 /* MyPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPlanViewController.xib; sourceTree = "<group>"; };
+		6E5A0B4818981510000BA96A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6E5A0B4918981510000BA96A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6E5A0B4A18981510000BA96A /* CustomHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHttpClient.h; sourceTree = "<group>"; };
+		6E5A0B4B18981510000BA96A /* CustomHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHttpClient.m; sourceTree = "<group>"; };
+		6E5A0B51189815DE000BA96A /* HttpRequestHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestHandling.h; sourceTree = "<group>"; };
+		6E5A0B52189815DE000BA96A /* HttpRequestHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestHandling.m; sourceTree = "<group>"; };
+		6E6A1317188E76E9000DEE89 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		6E6A131B188E77A5000DEE89 /* Molecule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Molecule.h; sourceTree = "<group>"; };
+		6E6A131C188E77A5000DEE89 /* Molecule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Molecule.m; sourceTree = "<group>"; };
+		6E6A131E188E7820000DEE89 /* Link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		6E6A131F188E7820000DEE89 /* Link.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Link.m; sourceTree = "<group>"; };
+		6E6A1321188E7A77000DEE89 /* Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Atom.h; sourceTree = "<group>"; };
+		6E6A1322188E7A77000DEE89 /* Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Atom.m; sourceTree = "<group>"; };
+		6E6A1324188E7C96000DEE89 /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		6E6A1325188E7C96000DEE89 /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		6E6A1327188E7D8B000DEE89 /* AtomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomTypes.h; sourceTree = "<group>"; };
+		6E6A1328188E7D8B000DEE89 /* AtomTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtomTypes.m; sourceTree = "<group>"; };
+		6E6A132A188E7DF3000DEE89 /* Attachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attachment.h; sourceTree = "<group>"; };
+		6E6A132B188E7DF3000DEE89 /* Attachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attachment.m; sourceTree = "<group>"; };
+		6E6A132D188E7E57000DEE89 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		6E6A132E188E7E57000DEE89 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		6E6A1330188E7EBF000DEE89 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		6E6A1331188E7EBF000DEE89 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		6E6A1333188E7F45000DEE89 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		6E6A1334188E7F45000DEE89 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		6E6A1336188E7FA9000DEE89 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6E6A1337188E7FA9000DEE89 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6E6A1339188E8120000DEE89 /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		6E6A133A188E8120000DEE89 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		6E6A133C188E8195000DEE89 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		6E6A133D188E8195000DEE89 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		6E6A1353188E877D000DEE89 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		6E6A1354188E877D000DEE89 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		6E6A1357188E8843000DEE89 /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		6E71143B18994E150067B672 /* input_field_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "input_field_bg@2x.jpg"; sourceTree = "<group>"; };
+		6E71143D18994F910067B672 /* remember@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "remember@2x.jpg"; sourceTree = "<group>"; };
+		6E71143F18994FAA0067B672 /* remember_checked@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "remember_checked@2x.jpg"; sourceTree = "<group>"; };
+		6E711441189951B80067B672 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6E71144A1899572F0067B672 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		6E71144B1899572F0067B672 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		6E71144D189957F00067B672 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6EF7AEBF18903C1700D6ABB4 /* MyPlanIt.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MyPlanIt.sqlite; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +126,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E71144E189957F00067B672 /* AdSupport.framework in Frameworks */,
+				6E711442189951B80067B672 /* MapKit.framework in Frameworks */,
+				6E6A1318188E76E9000DEE89 /* SpriteKit.framework in Frameworks */,
 				6E1A9E77188D2BE10032A7F7 /* CoreGraphics.framework in Frameworks */,
 				6E1A9E79188D2BE10032A7F7 /* UIKit.framework in Frameworks */,
 				6E1A9E75188D2BE10032A7F7 /* Foundation.framework in Frameworks */,
@@ -96,6 +170,9 @@
 		6E1A9E73188D2BE10032A7F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E71144D189957F00067B672 /* AdSupport.framework */,
+				6E711441189951B80067B672 /* MapKit.framework */,
+				6E6A1317188E76E9000DEE89 /* SpriteKit.framework */,
 				6E1A9E74188D2BE10032A7F7 /* Foundation.framework */,
 				6E1A9E76188D2BE10032A7F7 /* CoreGraphics.framework */,
 				6E1A9E78188D2BE10032A7F7 /* UIKit.framework */,
@@ -107,8 +184,13 @@
 		6E1A9E7A188D2BE10032A7F7 /* MyPlanIt */ = {
 			isa = PBXGroup;
 			children = (
-				6E1A9E83188D2BE10032A7F7 /* AppDelegate.h */,
-				6E1A9E84188D2BE10032A7F7 /* AppDelegate.m */,
+				6E71143918994DF70067B672 /* Assets */,
+				6E5A0B47189813EB000BA96A /* Utils */,
+				6E6A1352188E8769000DEE89 /* LeftMenu */,
+				6E6A1351188E8732000DEE89 /* AppDelegate */,
+				6E6A1350188E8715000DEE89 /* Images */,
+				6E6A134F188E86EE000DEE89 /* UIViewControllers */,
+				6E6A1319188E772B000DEE89 /* DataModel */,
 				6E1A9E86188D2BE10032A7F7 /* Images.xcassets */,
 				6E1A9E7B188D2BE10032A7F7 /* Supporting Files */,
 			);
@@ -118,6 +200,7 @@
 		6E1A9E7B188D2BE10032A7F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6EF7AEBF18903C1700D6ABB4 /* MyPlanIt.sqlite */,
 				6E1A9E7C188D2BE10032A7F7 /* MyPlanIt-Info.plist */,
 				6E1A9E7D188D2BE10032A7F7 /* InfoPlist.strings */,
 				6E1A9E80188D2BE10032A7F7 /* main.m */,
@@ -142,6 +225,122 @@
 				6E1A9E96188D2BE10032A7F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E5A0B47189813EB000BA96A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A0B4818981510000BA96A /* Reachability.h */,
+				6E5A0B4918981510000BA96A /* Reachability.m */,
+				6E5A0B4A18981510000BA96A /* CustomHttpClient.h */,
+				6E5A0B4B18981510000BA96A /* CustomHttpClient.m */,
+				6E5A0B51189815DE000BA96A /* HttpRequestHandling.h */,
+				6E5A0B52189815DE000BA96A /* HttpRequestHandling.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		6E6A1319188E772B000DEE89 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E6A131A188E7737000DEE89 /* Objects */,
+				6E71144A1899572F0067B672 /* DataModel.h */,
+				6E71144B1899572F0067B672 /* DataModel.m */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		6E6A131A188E7737000DEE89 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				6E6A131B188E77A5000DEE89 /* Molecule.h */,
+				6E6A131C188E77A5000DEE89 /* Molecule.m */,
+				6E6A131E188E7820000DEE89 /* Link.h */,
+				6E6A131F188E7820000DEE89 /* Link.m */,
+				6E6A1321188E7A77000DEE89 /* Atom.h */,
+				6E6A1322188E7A77000DEE89 /* Atom.m */,
+				6E6A1324188E7C96000DEE89 /* Address.h */,
+				6E6A1325188E7C96000DEE89 /* Address.m */,
+				6E6A1327188E7D8B000DEE89 /* AtomTypes.h */,
+				6E6A1328188E7D8B000DEE89 /* AtomTypes.m */,
+				6E6A132A188E7DF3000DEE89 /* Attachment.h */,
+				6E6A132B188E7DF3000DEE89 /* Attachment.m */,
+				6E6A132D188E7E57000DEE89 /* Contact.h */,
+				6E6A132E188E7E57000DEE89 /* Contact.m */,
+				6E6A1330188E7EBF000DEE89 /* Location.h */,
+				6E6A1331188E7EBF000DEE89 /* Location.m */,
+				6E6A1333188E7F45000DEE89 /* Note.h */,
+				6E6A1334188E7F45000DEE89 /* Note.m */,
+				6E6A1336188E7FA9000DEE89 /* Person.h */,
+				6E6A1337188E7FA9000DEE89 /* Person.m */,
+				6E6A1339188E8120000DEE89 /* Service.h */,
+				6E6A133A188E8120000DEE89 /* Service.m */,
+				6E6A133C188E8195000DEE89 /* Settings.h */,
+				6E6A133D188E8195000DEE89 /* Settings.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		6E6A134F188E86EE000DEE89 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E1A9EA3188D2C0E0032A7F7 /* MyPlanViewController.h */,
+				6E1A9EA4188D2C0E0032A7F7 /* MyPlanViewController.m */,
+				6E1A9EA5188D2C0E0032A7F7 /* MyPlanViewController.xib */,
+			);
+			name = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		6E6A1350188E8715000DEE89 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6E6A1351188E8732000DEE89 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6E1A9E83188D2BE10032A7F7 /* AppDelegate.h */,
+				6E1A9E84188D2BE10032A7F7 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6E6A1352188E8769000DEE89 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6E6A1356188E87B3000DEE89 /* MFSideMenu */,
+				6E6A1353188E877D000DEE89 /* MFSideMenuContainerViewController.h */,
+				6E6A1354188E877D000DEE89 /* MFSideMenuContainerViewController.m */,
+			);
+			name = LeftMenu;
+			sourceTree = "<group>";
+		};
+		6E6A1356188E87B3000DEE89 /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6E6A1357188E8843000DEE89 /* MFSideMenu.h */,
+			);
+			name = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		6E71143918994DF70067B672 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6E71143A18994E000067B672 /* LoginPage */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		6E71143A18994E000067B672 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				6E71143F18994FAA0067B672 /* remember_checked@2x.jpg */,
+				6E71143D18994F910067B672 /* remember@2x.jpg */,
+				6E71143B18994E150067B672 /* input_field_bg@2x.jpg */,
+			);
+			name = LoginPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +418,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E71144018994FAA0067B672 /* remember_checked@2x.jpg in Resources */,
 				6E1A9E7F188D2BE10032A7F7 /* InfoPlist.strings in Resources */,
+				6EF7AEC018903C1700D6ABB4 /* MyPlanIt.sqlite in Resources */,
+				6E1A9EA7188D2C0E0032A7F7 /* MyPlanViewController.xib in Resources */,
+				6E71143C18994E150067B672 /* input_field_bg@2x.jpg in Resources */,
 				6E1A9E87188D2BE10032A7F7 /* Images.xcassets in Resources */,
+				6E71143E18994F910067B672 /* remember@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +443,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E6A1320188E7820000DEE89 /* Link.m in Sources */,
+				6E71144C1899572F0067B672 /* DataModel.m in Sources */,
+				6E5A0B4F18981510000BA96A /* CustomHttpClient.m in Sources */,
 				6E1A9E85188D2BE10032A7F7 /* AppDelegate.m in Sources */,
+				6E6A133E188E8195000DEE89 /* Settings.m in Sources */,
+				6E6A132F188E7E57000DEE89 /* Contact.m in Sources */,
+				6E5A0B53189815DE000BA96A /* HttpRequestHandling.m in Sources */,
+				6E6A1335188E7F45000DEE89 /* Note.m in Sources */,
+				6E6A132C188E7DF3000DEE89 /* Attachment.m in Sources */,
+				6E6A133B188E8120000DEE89 /* Service.m in Sources */,
+				6E6A1332188E7EBF000DEE89 /* Location.m in Sources */,
+				6E6A1323188E7A77000DEE89 /* Atom.m in Sources */,
+				6E1A9EA6188D2C0E0032A7F7 /* MyPlanViewController.m in Sources */,
+				6E6A1329188E7D8B000DEE89 /* AtomTypes.m in Sources */,
+				6E6A1355188E877D000DEE89 /* MFSideMenuContainerViewController.m in Sources */,
+				6E5A0B4E18981510000BA96A /* Reachability.m in Sources */,
+				6E6A1338188E7FA9000DEE89 /* Person.m in Sources */,
+				6E6A1326188E7C96000DEE89 /* Address.m in Sources */,
 				6E1A9E81188D2BE10032A7F7 /* main.m in Sources */,
+				6E6A131D188E77A5000DEE89 /* Molecule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +663,7 @@
 				6E1A9E9F188D2BE10032A7F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E1A9EA0188D2BE10032A7F7 /* Build configuration list for PBXNativeTarget "MyPlanItTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +672,7 @@
 				6E1A9EA2188D2BE10032A7F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

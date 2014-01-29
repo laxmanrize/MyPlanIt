@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  MyPlanIt
 //
-//  Created by Arun Kumar on 20/01/14.
-//  Copyright (c) 2014 SSTIG. All rights reserved.
+//  Created by Justin wanajrat on 20/01/14.
+//  Copyright (c) 2014 MyPlanIt. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,6 +15,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    MyPlanViewController *myPlan = [[MyPlanViewController alloc] initWithNibName:@"MyPlanViewController" bundle:nil];
+    self.window.rootViewController = myPlan;
     [self.window makeKeyAndVisible];
     return YES;
 }
