@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+//address
 @interface Address : NSObject
 @property(nonatomic,retain) NSString *city;
 @property(nonatomic,retain) NSString *country;
