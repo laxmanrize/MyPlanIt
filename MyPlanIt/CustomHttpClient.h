@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+//customhttpclient
 @interface CustomHttpClient : NSObject
 -(NSData *)executeHttpGet:(NSString *)url error:(NSError *)err;
 -(NSData *)executeHttpPost:(NSString *)url andRequestString:(NSMutableDictionary *)requestStr error:(NSError *)err;
